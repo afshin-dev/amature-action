@@ -1,0 +1,15 @@
+name: "1"
+
+on: workflow_dispatch #manually start
+
+jobs:
+  one: # name of the job
+    runs-on: ubuntu-latest # job runner
+    steps: # steps that job contains
+      - name: greet # step name
+        run: echo "hello" # command of step
+      - name: goodbye # step name
+        run: echo "bye bye" # command of step
+        
+
+
