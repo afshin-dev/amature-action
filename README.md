@@ -1,2 +1,2 @@
 # amature-action
-for seeking `github` basic action featur
+for seeking `github` basic action features
